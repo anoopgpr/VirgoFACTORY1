@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "193303184404",
+    "project_id": "virgo-factory",
+    "storage_bucket": "virgo-factory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193303184404:android:bbf1a086726ceeee365301",
+        "android_client_info": {
+          "package_name": "com.mobiquest.virgolaminatesnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193303184404-don4toqa56a20nmma1po21321o910sa5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0o9t28aX_RNqHKMgxKXveOgixAEvxg9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193303184404-don4toqa56a20nmma1po21321o910sa5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

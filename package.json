@@ -1,0 +1,33 @@
+{
+    "name": "monaca-template-minimum",
+    "version": "3.0.1",
+    "displayName": "Monaca Template Minimum",
+    "dependencies": {
+        "cordova-plugin-splashscreen": "6.0.0",
+        "monaca-plugin-monaca-core": "3.3.1",
+        "cordova-plugin-camera": "6.0.0",
+        "cordova-plugin-media-capture": "4.0.0",
+        "cordova-plugin-device": "2.1.0",
+        "cordova-plugin-qr-barcode-scanner": "git+https://github.com/AndreiTelteu/cordova-plugin-qr-barcode-scanner",
+        "cordova-plugin-androidx-adapter": "git+https://github.com/dpa99c/cordova-plugin-androidx-adapter"
+    },
+    "scripts": {
+        "monaca:preview": "npm run dev",
+        "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-splashscreen": {},
+            "monaca-plugin-monaca-core": {},
+            "cordova-plugin-camera": {},
+            "cordova-plugin-media-capture": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-qr-barcode-scanner": {},
+            "cordova-plugin-androidx-adapter": {}
+        }
+    },
+    "devDependencies": {
+        "browser-sync": "~2.27.7",
+        "cordova": "^11.0.0"
+    }
+}
